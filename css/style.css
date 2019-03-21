@@ -22,7 +22,7 @@ main::after{
 
 .sx{
   width: 30%;
-  height: 300px;
+  height: 350px;
   background-color: #aaacaf;
 }
 
@@ -49,7 +49,97 @@ main::after{
 }
 
 footer{
-  width: 100%;
+  width: 80%;
   height: 140px;
   margin: 10px 33px 0px 33px;
 }
+.profilo{
+  padding: 10px;
+}
+
+.profilo > img{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin: auto;
+  display: block;
+}
+
+.profilo h3{
+  color: #e2391f;
+}
+
+h5{
+  margin: 5px;
+  font-weight: bold;
+}
+
+h3, h5{
+  text-align: center;
+}
+p{
+  text-align: justify;
+  margin-bottom: 10px;
+}
+
+.profilo button{
+  background-color: #e2391f;
+  color: white;
+  border-radius: 2px;
+  margin: auto;
+  display: block;
+  border-style:none;
+  height: 30px;
+  width: 90px;
+}
+
+.social::after{
+  clear: both;
+  display: table;
+  content:'';
+}
+
+.face, .link, .twit{
+  width: 33.333%;
+  height: 100%;
+  border-radius: 10px;
+  float: left;
+}
+
+.social img{
+  width: 50px;
+  height: 50px;
+  margin: auto;
+  display: block;
+  transform: translate(0%, 50%);
+}
+
+.dx{
+  padding: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.
