@@ -4,6 +4,7 @@
   padding: 0;
 }
 
+/*scheletro*/
 body{
   background-color: #aaacaf;
 }
@@ -49,10 +50,13 @@ main::after{
 }
 
 footer{
-  width: 80%;
+  width: 90%;
   height: 140px;
   margin: 10px 33px 0px 33px;
 }
+
+/*inizio personalizzazione*/
+/*profilo*/
 .profilo{
   padding: 10px;
 }
@@ -92,6 +96,7 @@ p{
   height: 30px;
   width: 90px;
 }
+/*social*/
 
 .social::after{
   clear: both;
@@ -113,6 +118,8 @@ p{
   display: block;
   transform: translate(0%, 50%);
 }
+
+/*colonna destra*/
 
 .dx{
   padding: 30px 50px;
@@ -152,10 +159,55 @@ p{
   padding-top: 10px;
 }
 
+/*footer*/
+footer{
+  padding: 20px;
+}
 
+footer::after{
+  clear: both;
+  display: table;
+  content:'';
+}
 
+.comment{
+  width: 60%;
+  height: 100%;
+  float: left;
+}
 
+h1{
+  margin-bottom: 10px;
+}
 
+.icone{
+  width: 20%;
+  height: 40%;
+  margin-top: 60px;
+  float: right;
+}
+
+.icone::after{
+  clear: both;
+  display: table;
+  content:'';
+}
+
+.heart, .share, .star{
+  width: 33.333%;
+  height: 100%;
+  border-radius: 10px;
+  float: left;
+}
+
+.icone img{
+  width: 30px;
+  height: 30px;
+  opacity: 0.4;
+  margin: auto;
+  display: block;
+  transform: translate(0%, 15%);
+  }
 
 
 
